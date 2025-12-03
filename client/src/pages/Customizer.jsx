@@ -56,7 +56,7 @@ const Customizer = () => {
       setGeneratingImg(true);
 
       const response = await fetch(
-        "https://ia-shirt.onrender.com/api/v1/dalle",
+        "https://ia-shirt-r3nw5z655-mathdfxs-projects.vercel.app//api/v1/dalle",
         {
           method: "POST",
           headers: {
